@@ -278,8 +278,8 @@ while rodando:
                 imagem_inimigo,
                 inimigo3
             )
-            if fase == 2:
-                inimigo_fase2.x -= velocidade_inimigo + 2
+        if fase == 2:
+            inimigo_fase2.x -= velocidade_inimigo + 2
 
             if inimigo_fase2.right < 0:
                 inimigo_fase2.left = LARGURA + 300
